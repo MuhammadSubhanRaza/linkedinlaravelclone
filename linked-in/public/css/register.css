@@ -1,0 +1,116 @@
+body {
+    font-family:
+        -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", "Fira Sans", Ubuntu, Oxygen, "Oxygen Sans", Cantarell, "Droid Sans", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Lucida Grande", Helvetica, Arial, sans-serif;
+    background-color: rgb(243, 242, 239);
+}
+
+
+
+.lower-footer img {
+    width: 60px;
+    mix-blend-mode: luminosity;
+}
+
+.lower-footer {
+    padding: 10px 0px 5px 0px;
+    text-align: center;
+    width: 100%;
+    background-color: white;
+}
+
+.lower-footer ul li {
+    display: inline-block;
+    padding: 0px 5px;
+}
+
+.lower-footer ul a {
+    color: rgb(42, 42, 42);
+    font-weight: 400;
+    display: block;
+    padding-top: 5px;
+}
+
+
+.lower-footer ul a:hover {
+    color: blue;
+}
+
+.register-container {
+    width: 410px;
+    /* position: absolute;
+    left: 50%;
+    transform: translateX(-50%); */
+    margin: auto;
+    box-sizing: border-box;
+    padding: 25px;
+    text-align: center;
+    background-color: white;
+    margin-top: 20px;
+    border-radius: 8px;
+}
+
+.head-comp {
+    width: 100%;
+    text-align: center;
+}
+
+.head-comp img {
+    width: 137px;
+    margin-top: 20px;
+}
+
+.head-comp h1 {
+    font-weight: 380;
+    font-size: 2rem;
+    padding-top: 20px;
+}
+
+.register-container input[type='email'],
+input[type='text'],
+input[type='password'] {
+    width: 100%;
+    padding: 5px;
+}
+
+label {
+    display: block;
+    padding: 0;
+    padding-left: 15px;
+}
+
+.btnRegister {
+    background-color: rgb(2, 93, 185);
+    color: white;
+    font-weight: 500;
+    font-size: 1.1rem;
+    width: 100%;
+    outline: none;
+    border: none;
+    padding: 12px;
+    margin-top: 20px;
+    border-radius: 40px;
+}
+
+.register-container p {
+    font-size: 0.7rem;
+    padding: 0;
+    margin: 0;
+}
+
+.register-container p a {
+    color: rgb(0, 69, 219);
+    font-weight: 500;
+}
+
+.btnJoinWithGoogle {
+    color: rgb(2, 93, 185);
+    font-weight: 500;
+    font-size: 1.1rem;
+    width: 100%;
+    outline: none;
+    border: none;
+    padding: 12px;
+    margin-top: 20px;
+    border-radius: 40px;
+    border: solid 1px rgb(2, 93, 185);
+}
