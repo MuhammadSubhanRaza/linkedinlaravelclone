@@ -1,0 +1,165 @@
+body {
+    font-family:
+        -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", "Fira Sans", Ubuntu, Oxygen, "Oxygen Sans", Cantarell, "Droid Sans", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+nav {
+    border-bottom: solid rgb(230, 230, 230) 1px;
+}
+
+nav img {
+    width: 130px;
+    padding: 16px 0px;
+}
+
+.btnregister {
+    font-weight: 600;
+    color: rgb(121, 121, 121);
+    font-size: 1rem;
+}
+
+.btnregister:hover {
+    background-color: rgb(231, 231, 231);
+}
+
+.btnlogin {
+    text-decoration: none;
+    font-size: 1.1rem;
+    /* font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; */
+    font-weight: 500;
+    color: rgb(40, 103, 178);
+    border: solid 1px rgb(40, 103, 178);
+    display: inline-block;
+    padding: 6px 20px;
+    border-radius: 25px;
+}
+
+.header-sec h1 {
+    font-size: 3.3rem;
+    font-weight: 350;
+    color: rgb(40, 103, 178);
+    padding-top: 80px;
+}
+
+.heading-sec {
+    padding-left: 100px;
+}
+
+.heading-sec-btn {
+    background-color: transparent;
+    border: none;
+    outline: none;
+    border: solid 1px rgb(216, 216, 216);
+    padding: 0;
+    color: black;
+    border-radius: 5px;
+    display: block;
+    width: 70%;
+    margin-top: 12px;
+}
+
+.heading-sec-btn table {
+    width: 100%;
+    padding: 8px;
+    display: block;
+}
+
+.heading-sec-btn h3 {
+    font-size: 1.2rem;
+    font-weight: 400;
+}
+
+.heading-sec-btn h2 {
+    text-align: right;
+}
+
+.heading-sec-btn:hover {
+    box-shadow: rgb(218, 218, 218) 5px 5px 10px;
+}
+
+/* ----------------- OPEN JOBS -------------------- */
+
+.open-jobs-sec {
+    background-color: rgb(250, 249, 247);
+    height: 100vh;
+}
+
+.open-jobs-sec h1 {
+    font-weight: 300;
+    font-size: 3rem;
+    padding-top: 170px;
+}
+
+.open-jobs-sec p {
+    padding-top: 170px;
+    font-weight: 500;
+    color: gray;
+    font-size: 1rem;
+}
+
+.searches-btns {
+    background-color: rgb(230, 230, 230);
+    display: inline-block;
+    font-weight: 500;
+    color: rgb(105, 105, 105);
+    font-size: 1.3rem;
+    padding: 12px 24px;
+    border-radius: 30px;
+    margin: 5px 3px;
+    transition: 0.2s;
+}
+
+
+.searches-btns:hover {
+    background-color: rgb(200, 200, 200);
+    color: black;
+    text-decoration: underline;
+}
+
+.post-your-job {
+    background-color: rgb(241, 236, 229);
+    padding: 60px 0px;
+}
+
+.post-your-job h1 {
+    color: rgb(114, 18, 18);
+    font-weight: 400;
+    font-size: 2.8rem;
+}
+
+.post-your-job .post-job-btn {
+    display: inline-block;
+    font-weight: 500;
+    color: rgb(87, 87, 87);
+    font-size: 1.3rem;
+    padding: 12px 24px;
+    border-radius: 30px;
+    margin: 5px 3px;
+    border: solid 1px gray;
+    transition: 0.2s;
+    margin-top: 30px;
+}
+
+.post-your-job .post-job-btn:hover {
+    background-color: rgb(129, 116, 99);
+    color: black;
+}
+
+
+/* -------------CONNECT SECTION --------------- */
+
+.connect-sec {
+    height: 100vh;
+    padding-top: 70px;
+}
+
+.connect-sec img {
+    width: 50%;
+}
+
+.connect-sec h1
+{
+    font-size: 3.2rem;
+    font-weight: 300;
+    padding-top: 40px;
+}
